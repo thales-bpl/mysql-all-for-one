@@ -1,1 +1,1 @@
-DESCRIBE northwind.products;
+SELECT * FROM northwind.products;
