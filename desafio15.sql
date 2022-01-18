@@ -1,6 +1,6 @@
 SELECT 
-  SUBSTRING(submitted_date, - 8, 2)
-FROM
-  northwind.purchase_orders
+  HOUR(submitted_date)
 AS
-  submitted_hour;
+  submitted_hour
+FROM
+	northwind.purchase_orders;
