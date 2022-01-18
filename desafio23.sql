@@ -1,5 +1,5 @@
 UPDATE northwind.order_details 
 SET 
-  discount = '15'
+  discount = '30'
 WHERE
-  id > 0;
+  unit_price < 10.0000;
